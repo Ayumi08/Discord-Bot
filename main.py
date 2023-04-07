@@ -1,5 +1,7 @@
 import discord
 from discord import app_commands
+import os
+from dotenv import load_dotenv
 
 intents = discord.Intents.default()
 
@@ -15,5 +17,5 @@ async def first_command(interaction):
 
 
 ###########################################################################
-token = "MTA5MjUzMjYxODE5MDQwOTcyOA.GlGKyY.8oGAiK_iIDDyCgqULDe7HUPMNYLjtlF_qzce0U"
-client.run(token)
+
+client.run("")
